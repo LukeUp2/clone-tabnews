@@ -1,13 +1,12 @@
 function Home(){
     return (
         <div>
-            <h1>Oi gabriela</h1>
-            <h2>Vou contar-lhe uma piada: </h2>
-            <h2>Por que os pássaros voam para o sul?</h2>
-            <h2 id="conteudoPiada" hidden="true" >Porque é muito longe para ir andando!</h2>
+            <h1>Oi bia</h1>
+            <h2>Aperte o botão para revelar o segredo</h2>
+            <h2 id="conteudoPiada" hidden="true" >Tu és muito chataaaa!!!</h2>
 
             <button onClick={revelarPiada} style={{height: '20px'}}>
-                Revelar piada
+                Revelar segredo
             </button>
         </div>
     )
